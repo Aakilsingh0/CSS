@@ -1,0 +1,21 @@
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    font-size: 20px;
+}
+#one{
+    height: 100px;
+    width: 100px;
+    margin: 10%;
+    background-color: skyblue;
+    font-size: 2rem;
+}
+button{
+    size: 40px;
+    font-size: 38px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 0.5em; 
+    padding-right: 0.5em;   
+}

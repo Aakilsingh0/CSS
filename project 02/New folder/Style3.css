@@ -1,0 +1,30 @@
+body{
+    background-color: #1f8b5d;
+}
+
+.main{
+        height: 95vh;
+        width: 400px;
+        background-color: #1f8b5d;
+        margin-left: 450px;
+        border-radius: 12px;
+}
+.main .left img{
+    width: 500px;
+    height: 95vh;
+    border-radius: 12px ;
+    display: flex;
+}
+.right .date{
+    display: flex;
+}
+
+.right a{
+    position: absolute;
+    bottom: 210px;
+    left: 690px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}

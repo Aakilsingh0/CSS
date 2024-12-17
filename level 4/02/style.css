@@ -1,0 +1,22 @@
+
+
+.male{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+    line-height: 0.5px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+.male img{
+    width: 150px;
+    height: 60px;
+}
+
+.male:hover{
+    box-shadow: 2px 2px 10px gray;
+}

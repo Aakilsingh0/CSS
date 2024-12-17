@@ -1,0 +1,19 @@
+h1{
+    background-color: pink;
+    border: 5px solid black;
+    width: 250px;
+    text-align: center;
+}
+p{
+    height: 150px;
+    width: 250px;
+    background-color: pink;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    border-left-style: dashed;
+    border-left-color: blue ;
+    border-radius: 15px;
+   margin-left: 50px;
+}

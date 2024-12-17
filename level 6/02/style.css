@@ -1,0 +1,192 @@
+.animation{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+#one{
+    
+    top: 100px;
+    left: 100px;
+    background-color: pink;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#two{
+    top: 200px;
+    left: 200px;
+    animation-name: two;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#three{
+    top: 300px;
+    left: 300px;
+    animation-name: three;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#four{
+    top: 400px;
+    left: 400px;
+    animation-name: four;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#five{
+    top:500px;
+    left: 500px;
+    animation-name: five;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#six{
+    top: 600px;
+    left: 600px;
+    animation-name: six;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#seven{
+    top: 700px;
+    left: 700px;
+    animation-name: seven;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#eight{
+    top: 10px;
+    left: 10px;
+    animation-name: eight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes one{
+    from{
+        top: 100px;
+    left: 100px;
+    background-color: green;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: blue;
+    }
+}
+
+@keyframes eight{
+    from{
+        top: 10px;
+    left: 10px;
+    background-color: blue;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: skyblue;
+    }
+}
+
+
+@keyframes two{
+    from{
+        top: 200px;
+    left: 200px;
+    background-color: skyblue;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: pink;
+    }
+}
+@keyframes three{
+    from{
+        top: 300px;
+    left: 300px;
+    background-color: pink;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: orange;
+    }
+}
+@keyframes four{
+    from{
+        top: 400px;
+    left: 400px;
+    background-color: orange;
+    
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: yellow;
+    }
+}
+@keyframes five{
+    from{
+        top: 500px;
+    left: 500px;
+    background-color: yellow;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: brown;
+    }
+}
+@keyframes six{
+    from{
+        top: 600px;
+    left: 600px;
+    background-color: brown;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: chocolate;
+    }
+}
+@keyframes seven{
+    from{
+        top: 700px;
+    left: 700px;
+    background-color: chocolate;
+    }
+    to{
+        top: 700px;
+    left: 700px;
+    background-color: coral;
+    }
+}

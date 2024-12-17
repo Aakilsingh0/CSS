@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: dotted underline;
+    /* line-height: 2.5; */
+}
+h3{
+    text-align: right;
+}
+p{
+    /* text-align: right; */
+    text-align: justify;
+    /* line-height: 2.5; */
+    /* letter-spacing: 10px; */
+}
+h2{
+    /* font-weight: normal; */
+    /* font-weight: bold; */
+    text-decoration: dashed underline;
+
+}
